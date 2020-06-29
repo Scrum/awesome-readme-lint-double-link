@@ -1,0 +1,37 @@
+{
+  "name": "awesome-readme-lint-double-link",
+  "version": "0.0.0",
+  "description": "Lint double link in awesome readme",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "indent-string": "^4.0.0",
+    "log-symbols": "^4.0.0",
+    "markdown-link-extractor": "^1.2.3",
+    "text-table": "^0.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-angular": "^9.0.1",
+    "ava": "^3.9.0",
+    "conventional-changelog-cli": "^2.0.35",
+    "husky": "^4.2.5",
+    "nyc": "^15.1.0",
+    "xo": "^0.32.0"
+  },
+  "scripts": {
+    "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md && git commit -m \"build: update changelog\"",
+    "test": "xo && nyc ava"
+  },
+  "keywords": [
+    "awesome",
+    "lint",
+    "readme",
+    "link"
+  ],
+  "author": "scrum",
+  "license": "MIT"
+}
