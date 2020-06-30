@@ -1,6 +1,6 @@
 {
   "name": "awesome-readme-lint-double-link",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lint double link in awesome readme",
   "main": "index.js",
   "engines": {
