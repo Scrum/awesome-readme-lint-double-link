@@ -11,11 +11,13 @@ const awesomeReadmeLintLink = md => new Promise((resolve, reject) => {
   if (double.length > 0) {
     const message = `
 
-${'error'.toUpperCase(), 'duplicate links found:'}
+${'error'.toUpperCase()}, duplicate links found:
 ${table(double.map(link => Array.of(indentString(`${logSymbols.error}`, 2), link)))}
 `
 
-    reject(new Error(message));
+console.error(message);
+
+    reject();
   }
 
   resolve();
