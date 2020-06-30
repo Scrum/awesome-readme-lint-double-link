@@ -1,5 +1,14 @@
+## <small>0.0.4 (2020-06-30)</small>
+
+* test: disable skip throw test ([42a8217](https://github.com/Scrum/awesome-readme-lint-double-link/commit/42a8217))
+* perf: reject Error type ([cf4f42b](https://github.com/Scrum/awesome-readme-lint-double-link/commit/cf4f42b))
+
+
+
 ## <small>0.0.3 (2020-06-30)</small>
 
+* 0.0.3 ([47757d0](https://github.com/Scrum/awesome-readme-lint-double-link/commit/47757d0))
+* build: update changelog ([453510d](https://github.com/Scrum/awesome-readme-lint-double-link/commit/453510d))
 * test: skip throw ([5972163](https://github.com/Scrum/awesome-readme-lint-double-link/commit/5972163))
 * perf: remove chalk ([76764f8](https://github.com/Scrum/awesome-readme-lint-double-link/commit/76764f8))
 * perf: try only console ([561a826](https://github.com/Scrum/awesome-readme-lint-double-link/commit/561a826))
