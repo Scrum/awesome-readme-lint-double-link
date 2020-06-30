@@ -1,5 +1,15 @@
+## <small>0.0.3 (2020-06-30)</small>
+
+* test: skip throw ([5972163](https://github.com/Scrum/awesome-readme-lint-double-link/commit/5972163))
+* perf: remove chalk ([76764f8](https://github.com/Scrum/awesome-readme-lint-double-link/commit/76764f8))
+* perf: try only console ([561a826](https://github.com/Scrum/awesome-readme-lint-double-link/commit/561a826))
+
+
+
 ## <small>0.0.2 (2020-06-30)</small>
 
+* 0.0.2 ([6835dd9](https://github.com/Scrum/awesome-readme-lint-double-link/commit/6835dd9))
+* build: update changelog ([ed38426](https://github.com/Scrum/awesome-readme-lint-double-link/commit/ed38426))
 * ci: perf run job ([3fe637c](https://github.com/Scrum/awesome-readme-lint-double-link/commit/3fe637c))
 * fix: npm folder libs ([2a17ad9](https://github.com/Scrum/awesome-readme-lint-double-link/commit/2a17ad9))
 

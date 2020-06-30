@@ -1,13 +1,12 @@
 {
   "name": "awesome-readme-lint-double-link",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lint double link in awesome readme",
   "main": "index.js",
   "engines": {
     "node": ">=10"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
     "indent-string": "^4.0.0",
     "log-symbols": "^4.0.0",
     "markdown-link-extractor": "^1.2.3",
