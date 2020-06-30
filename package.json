@@ -7,7 +7,6 @@
     "node": ">=10"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
     "indent-string": "^4.0.0",
     "log-symbols": "^4.0.0",
     "markdown-link-extractor": "^1.2.3",
