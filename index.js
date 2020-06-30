@@ -14,10 +14,7 @@ const awesomeReadmeLintLink = md => new Promise((resolve, reject) => {
 ${'error'.toUpperCase()}, duplicate links found:
 ${table(double.map(link => Array.of(indentString(`${logSymbols.error}`, 2), link)))}
 `
-
-console.error(message);
-
-    reject();
+    reject(new Error(message));
   }
 
   resolve();
