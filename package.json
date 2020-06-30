@@ -1,6 +1,6 @@
 {
   "name": "awesome-readme-lint-double-link",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Lint double link in awesome readme",
   "main": "index.js",
   "engines": {
@@ -26,6 +26,9 @@
     "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md && git commit -m \"build: update changelog\"",
     "test": "xo && nyc ava"
   },
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "awesome",
     "lint",
@@ -33,5 +36,9 @@
     "link"
   ],
   "author": "scrum",
-  "license": "MIT"
+  "license": "MIT",
+  "funding": {
+    "type": "patreon",
+    "url": "https://patreon.com/scrums"
+  }
 }
