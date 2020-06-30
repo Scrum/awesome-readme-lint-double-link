@@ -27,7 +27,7 @@
     "test": "xo && nyc ava"
   },
   "files": [
-    "lib"
+    "libs"
   ],
   "keywords": [
     "awesome",
