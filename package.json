@@ -9,7 +9,7 @@
   "dependencies": {
     "indent-string": "^4.0.0",
     "log-symbols": "^4.0.0",
-    "markdown-link-extractor": "^1.2.3",
+    "markdown-link-extractor": "^3.0.2",
     "text-table": "^0.2.0"
   },
   "devDependencies": {
